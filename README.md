@@ -1,4 +1,4 @@
-# Sample GitHub App
+# MyGithubApp
 
 This sample app showcases how webhooks can be used with a GitHub App's installation token to create a bot that responds to issues. Code uses [octokit.js](https://github.com/octokit/octokit.js).
 
@@ -18,7 +18,7 @@ This sample app showcases how webhooks can be used with a GitHub App's installat
 3. Install dependencies with `npm install`.
 4. Start the server with `npm run server`.
 5. Ensure your server is reachable from the internet.
-    - If you're using `smee`, run `smee -u <smee_url> -t http://localhost:3000/api/webhook`.
+   - If you're using `smee`, run `smee -u <smee_url> -t http://localhost:3000/api/webhook`.
 6. Ensure your GitHub App includes at least one repository on its installations.
 
 ## Usage
@@ -41,4 +41,3 @@ by major cloud providers:
 [AWS Secrets Manager](https://docs.aws.amazon.com/AWSJavaScriptSDK/v3/latest/clients/client-secrets-manager/),
 [Google Secret Manager](https://cloud.google.com/nodejs/docs/reference/secret-manager/latest),
 etc.
-# MyGithubApp
